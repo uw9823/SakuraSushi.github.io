@@ -1,0 +1,897 @@
+/* Style the navbar */
+
+nav#primary {
+  z-index: 5;
+ 	position: fixed;
+ 	top: 50%;
+ 	right: 10px;
+ 	margin-top: -40px;
+  color: rgb(255,255,255);
+  text-align: right;
+}
+
+ nav#primary li {
+   position: relative;
+   height: 20px;
+   padding: 8px;
+   font-family:  'Raleway', sans-serif;
+}
+ nav#primary a {
+   text-decoration: none;
+   color: rgb(255,116,140);
+   font-size: 1em;
+   display: block;
+   width: 20px;
+   height: 20px;
+   text-indent: -9999px;
+ }
+ nav#primary a:hover, nav#primary a:active {
+   color: rgb(255,255,255);
+   text-decoration: none;
+   font-size: 1em;
+ }
+
+/************************** end of nav styles *****************************/
+
+/********************************** sushi ***********************************************************/
+#logo {
+  padding-top: 50px;
+  text-align: center;
+}
+#nigiri{}
+
+#eel { /* plate */
+  position: relative;
+  display: inline-block;
+  background: url(../img/nigiri/eel.png);
+  width: 175px;
+  height: 103px;
+  top: 735px;
+  left: 175px;
+}
+#roe { /* plate2 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/nigiri/salmonroe.png);
+  width: 125px;
+  height: 114px;
+  top: 680px;
+  left: -610px;
+}
+#urchin{ /* plate3 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/nigiri/urchin.png);
+  width: 125px;
+  height: 112px;
+  top: 575px;
+  right: 720px;
+}
+
+#flounder{ /*plate4 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/nigiri/flounder.png);
+  width: 175px;
+  height: 114px;
+  top: 675px;
+  right: 850px;
+}
+
+#herring { /*plate5*/
+  position:relative;
+  display: inline-block;
+  background: url(../img/nigiri/herringroe.png);
+  width: 200px;
+  height: 85px;
+  top: 775px;
+  left: -180px;
+}
+
+#shrimp{  /* plate6 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/nigiri/shrimp.png);
+  width: 200px;
+  height: 113px;
+  top: 950px;
+  right: 325px;
+}
+
+#octopus { /*plate7 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/nigiri/octopus.png);
+  width: 200px;
+  height: 87px;
+  top: 775px;
+  right: 850px;
+}
+
+#egg { /* plate8 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/nigiri/egg.png);
+  width: 180px;
+  height: 119px;
+  top: 660px;
+  left: 835px;
+}
+
+#nigirimenu {
+  position: absolute;
+  display: inline-block;
+  background: url(../img/nigirimenu.png);
+  width: 150px;
+  height: 242px;
+  padding: 160px 126px;
+  top: 1250px;
+  right: 300px;
+}
+/******************************************************* sashimi **********************************************************/
+
+#salmon{ /* plate9 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/sashimi/salmon.png);
+  width: 225px;
+  height: 186px;
+  top: 2375px;
+  left: 620px;
+}
+
+#tuna{ /* plate10 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/sashimi/tuna.png);
+  width: 175px;
+  height: 140px;
+  top: 2582px;
+  left: 565px;
+}
+
+#yellowtail { /* plate11 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/sashimi/yellowtail.png);
+  width: 175px;
+  height: 130px;
+  top: 2180px;
+  left: 15px;
+}
+
+#sashimimenu{
+  position:relative;
+  display: inline-block;
+  background: url(../img/sashimimenu.png);
+  width: 400px;
+  height: 560px;
+  top: 2050px;
+  left: 300px;
+}
+/************************************************ maki *****************************************************************/
+#makimenu{
+  position:relative;
+  display: inline-block;
+  background: url(../img/makimenu.png);
+  width: 400px;
+  height: 560px;
+  top: 3400px;
+  left: 100px;
+}
+#makiwhite{ /*plate12 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/hosomaki/tunamaki.png);
+  width: 200px;
+  height: 123px;
+  top: 3100px;
+  left: 143px;
+}
+
+#makituna { /* plate13*/
+  position:relative;
+  display: inline-block;
+  background: url(../img/chumaki/salmonavocado.png);
+  width: 243px;
+  height: 140px;
+  top: 3275px;
+  right: 525px;
+}
+
+#makisalmon { /*plate14*/
+  position:relative;
+  display: inline-block;
+  background: url(../img/futomaki/crab2.png);
+  width: 180px;
+  height: 125px;
+  top: 2680px;
+  left: 1100px;
+}
+
+#soy{
+  position:relative;
+  display: inline-block;
+  background: url(../img/soysauce.png);
+  width: 450px;
+  height: 355px;
+  top: 2650px;
+  left: 1200px;
+}
+
+#chop{
+  position:relative;
+  display: inline-block;
+  background: url(../img/chopsticks.png);
+  width: 700px;
+  height: 600px;
+  top: 3050px;
+  left: 300px;
+}
+
+#hosomaki{
+  position:relative;
+  display: inline-block;
+  background: url(../img/hosomaki.png);
+  width: 650px;
+  height: 413px;
+  top: 4100px;
+  left: 75px;
+}
+
+#chumaki{
+  position:relative;
+  display: inline-block;
+  background: url(../img/chumaki.png);
+  width: 650px;
+  height: 407px;
+  top: 5000px;
+  left: 200px;
+}
+
+#futomaki{
+  position:relative;
+  display: inline-block;
+  background: url(../img/futomaki.png);
+  width: 650px;
+  height: 413px;
+  top: 5500px;
+  right: 850px;
+}
+/************************************************************ hosomaki ***********************************************************************************************/
+#whitetuna{ /* plate15 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/hosomaki/white.png);
+  width: 375px;
+  height: 214px;
+  top: 3900px;
+  left: 190px;
+}
+#cucumber{
+  position:relative;
+  display: inline-block;
+  background: url(../img/hosomaki/cucumber.png);
+  width: 350px;
+  height: 118px;
+  top: 3625px;
+  left: 400px;
+}
+#salmonmaki{
+  position:relative;
+  display: inline-block;
+  background: url(../img/hosomaki/salmonmaki.png);
+  width: 375px;
+  height: 212px;
+  top: 3925px;
+  left: 10px;
+}
+#tunamaki{
+  position:relative;
+  display: inline-block;
+  background: url(../img/hosomaki/tuna.png);
+  width: 375px;
+  height: 181px;
+  top: 3500px;
+  left: 300px;
+}
+/************************************************************** chumaki **********************************************/
+
+#tunacucumber{ /* plate19 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/chumaki/tuna.png);
+  width: 351px;
+  height: 176px;
+  top: 4475px;
+  left: 190px;
+}
+#salmonavocado{
+  position:relative;
+  display: inline-block;
+  background: url(../img/chumaki/salmon.png);
+  width: 351px;
+  height: 75px;
+  top: 4610px;
+  left: -820px;
+}
+#makiegg{
+  position: relative;
+  display: inline-block;
+  background: url(../img/chumaki/egg.png);
+  width: 400px;
+  height: 160px;
+  top: 4430px;
+  left: -250px;
+}
+/************************************************************ futomaki ***************************************************/
+#eggmaki{ /* plate22 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/futomaki/egg.png);
+  width: 350px;
+  height: 150px;
+  top: 5075px;
+  left: 750px;
+}
+#eggmaki2{
+  position:relative;
+  display: inline-block;
+  background: url(../img/futomaki/egg2.png);
+  width: 184px;
+  height: 125px;
+  top: 5100px;
+  left: -320px;
+}
+
+#crabmaki{
+  position:relative;
+  display: inline-block;
+  background: url(../img/futomaki/crab.png);
+  width: 350px;
+  height: 210px;
+  top: 5145px;
+  left: 1210px;
+}
+#crabmaki2{
+  position:relative;
+  display: inline-block;
+  background: url(../img/futomaki/crab2.png);
+  width: 184px;
+  height: 125px;
+  top: 5130px;
+  left: 160px;
+}
+/*************************************** uramaki *************************************************/
+#caroll{ /*plate27 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/uramaki/caroll.png);
+  width: 400px;
+  height: 160px;
+  top: 6460px;
+  left: -150px;
+}
+#philly{
+  position:relative;
+  display: inline-block;
+  background: url(../img/uramaki/phillyroll.png);
+  width: 400px;
+  height: 155px;
+  top: 6725px;
+  right: 1250px;
+}
+#avocado{
+  position:relative;
+  display: inline-block;
+  background: url(../img/uramaki/avocadoroll.png);
+  width: 400px;
+  height: 200px;
+  top: 6275px;
+  left: 260px;
+}
+
+#soysauce{
+  position:relative;
+  display: inline-block;
+  background: url(../img/soysauce.png);
+  width: 450px;
+  height: 355px;
+  top: 6200px;
+  right: 900px;
+}
+#uramakimenu {
+  position: absolute;
+  display: inline-block;
+  background: url(../img/uramakimenu.png);
+  width: 150px;
+  height: 242px;
+  padding: 160px 126px;
+  top: 12000px;
+  right: 180px;
+}
+/*  *************************** temaki *********************************** */
+#salmontemaki{ /* plate31 */
+  position:relative;
+  display: inline-block;
+  background: url(../img/temaki/salmon.png);
+  width: 250px;
+  height: 445px;
+  top: 7550px;
+  left: 940px;
+}
+#mix{
+  position:relative;
+  display: inline-block;
+  background: url(../img/temaki/mix.png);
+  width: 250px;
+  height: 445px;
+  top: 7550px;
+  left: 450px;
+}
+#wasabiplate{
+  position:relative;
+  display: inline-block;
+  background: url(../img/wasabi.png);
+  width: 78px;
+  height: 75px;
+  top: 7510px;
+  right: 485px;
+}
+#gingerplate{
+  position:relative;
+  display: inline-block;
+  background: url(../img/ginger.png);
+  width: 105px;
+  height: 110px;
+  top: 7435px;
+  right: 475px;
+}
+#temakimenu {
+  position: absolute;
+  display: inline-block;
+  background: url(../img/temakimenu.png);
+  width: 150px;
+  height: 242px;
+  padding: 160px 126px;
+  top: 14000px;
+  right: 200px;
+}
+/* **************************************************** plates **************************************************************** */
+#plate{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 750px;
+  left: 425px;
+}
+#plate2{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 700px;
+  right: 400px;
+}
+#plate3{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 600px;
+  right: 500px;
+}
+#plate4{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 700px;
+  right: 600px;
+}
+#plate5{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 800px;
+  left: 75px;
+}
+#plate6{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 950px;
+  right: 90px;
+}
+#plate7{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 800px;
+  right: 590px;
+}
+#plate8{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 800px;
+  right: 750px;
+}
+
+#plate9{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 2400px;
+  left: 900px;
+}
+
+#plate10{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 2600px;
+  left: 800px;
+}
+
+#plate11{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 2200px;
+  left: 250px;
+}
+
+#plate12{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 3115px;
+  left: 395px;
+}
+
+#plate13{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 3300px;
+  right: 260px;
+}
+#plate14{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 3300px;
+  right: 425px;
+}
+#plate15{
+  position:relative;
+  display: inline-block;
+  background: url(../img/hosomaki/rollplate.png);
+  width: 500px;
+  height: 230px;
+  top: 3925px;
+  right: -625px;
+}
+#plate16{
+  position:relative;
+  display: inline-block;
+  background: url(../img/hosomaki/forwardplate.png);
+  width: 450px;
+  height: 150px;
+  top: 3650px;
+  left: 800px;
+}
+#plate17{
+  position:relative;
+  display: inline-block;
+  background: url(../img/hosomaki/rollplate.png);
+  width: 500px;
+  height: 230px;
+  top: 3950px;
+  left: 450px;
+}
+#plate18{
+  position:relative;
+  display: inline-block;
+  background: url(../img/hosomaki/rollplate2.png);
+  width: 475px;
+  height: 190px;
+  top: 3525px;
+  left: 750px;
+}
+
+
+#plate19{
+  position:relative;
+  display: inline-block;
+  background: url(../img/chumaki/tunaplate.png);
+  width: 500px;
+  height: 182px;
+  top: 4500px;
+  left: 630px;
+}
+
+#plate20{
+  position:relative;
+  display: inline-block;
+  background: url(../img/chumaki/forwardplate.png);
+  width: 475px;
+  height: 112px;
+  top: 4650px;
+  left: -400px;
+}
+
+#plate21{
+  position:relative;
+  display: inline-block;
+  background: url(../img/chumaki/eggrollplate.png);
+  width: 500px;
+  height: 140px;
+  top: 4450px;
+  left: 205px;
+}
+
+#plate22{
+  position:relative;
+  display: inline-block;
+  background: url(../img/futomaki/eggplate.png);
+  width: 450px;
+  height: 170px;
+  top: 5100px;
+  left: 1150px;
+}
+
+#plate23{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 5120px;
+  left: -75px;
+}
+#plate26{
+  position:relative;
+  display: inline-block;
+  background: url(../img/futomaki/crabplate.png);
+  width: 450px;
+  height: 208px;
+  top: 5375px;
+  left: -150px;
+}
+
+#plate27{
+  position:relative;
+  display: inline-block;
+  background: url(../img/plate.png);
+  width: 300px;
+  height: 88px;
+  top: 5150px;
+  left: 400px;
+}
+
+/* uramaki plates */
+#plate28{ /* ca */
+  position:relative;
+  display: inline-block;
+  background: url(../img/uramaki/caplate.png);
+  width: 500px;
+  height: 188px;
+  top: 6500px;
+  left: 300px;
+}
+
+#plate29{ /* philly */
+  position:relative;
+  display: inline-block;
+  background: url(../img/uramaki/caplate.png);
+  width: 500px;
+  height: 180px;
+  top: 6750px;
+  left: -800px;
+}
+
+#plate30{ /* avocado */
+  position:relative;
+  display: inline-block;
+  background: url(../img/uramaki/caplate.png);
+  width: 500px;
+  height: 180px;
+  top: 6275px;
+  left: 700px;
+}
+#plate31{ /* wasabi */
+  position:relative;
+  display: inline-block;
+  background: url(../img/condimentplate.png);
+  width: 204px;
+  height: 60px;
+  top: 7525px;
+  left: -340px;
+}
+#plate32{ /* ginger */
+  position:relative;
+  display: inline-block;
+  background: url(../img/condimentplate.png);
+  width: 204px;
+  height: 60px;
+  top: 7450px;
+  left: -315px;
+}
+#plate33{ /* soysauce plate */
+  position:relative;
+  display: inline-block;
+  background: url(../img/soysauceplate.png);
+  width: 300px;
+  height: 88px;
+  top: 7375px;
+  right: 925px;
+}
+/*************************************************************** last plates *****************************************************************************************/
+#plate34{ /* soysauce plate */
+  position:relative;
+  display: inline-block;
+  background: url(../img/littlesoy.png);
+  width: 1296px;
+  height: 1065px;
+  top: 8425px;
+  left: 210px;
+}
+
+/*************************************************** last section **************************************************/
+#table{
+  position:relative;
+  display: inline-block;
+  background: url(../img/table.png);
+  width: 1310px;
+  height: 1065px;
+  top: 9500px;
+  left: 200px;
+}
+
+#wasabi{
+  position:relative;
+  display: inline-block;
+  background: url(../img/wasabi.png);
+  width: 78px;
+  height: 75px;
+  top: 7740px;
+  left: -150px;
+}
+
+#ginger{
+  position:relative;
+  display: inline-block;
+  background: url(../img/ginger.png);
+  width: 105px;
+  height: 110px;
+  top: 7815px;
+  right: 175px;
+}
+
+#all{
+  position:relative;
+  display: inline-block;
+  background: url(../img/all.png);
+  width: 1200px;
+  height: 1065px;
+  top: 7350px;
+  left: 190px;
+}
+
+/********************************** facts ******************************/
+#fact1{
+  position: relative;
+  display: inline-block;
+  width: 338px;
+  height: 338px;
+  background: url(../img/fact1.png);
+  top: 1300px;
+  left: 350px;
+}
+
+#fact2{
+  position: relative;
+  display: inline-block;
+  width: 338px;
+  height: 338px;
+  background: url(../img/fact2.png);
+  top: 1700px;
+  left: 800px;
+}
+
+#fact3{
+  position: relative;
+  display: inline-block;
+  width: 338px;
+  height: 338px;
+  background: url(../img/fact3.png);
+  top: 2800px;
+  left: 800px;
+}
+
+#fact4{
+  position: relative;
+  display: inline-block;
+  width: 338px;
+  height: 338px;
+  background: url(../img/fact4.png);
+  top: 6900px;
+  left: 800px;
+}
+
+#fact5{
+  position: relative;
+  display: inline-block;
+  width: 338px;
+  height: 338px;
+  background: url(../img/fact5.png);
+  top: 8300px;
+  left: 1200px;
+}
+
+#fact6{
+  position: relative;
+  display: inline-block;
+  width: 338px;
+  height: 338px;
+  background: url(../img/fact6.png);
+  top: 8700px;
+  left: 50px;
+}
+
+#last{
+  position: relative;
+  display: inline-block;
+  width: 338px;
+  height: 338px;
+  background: url(../img/last.png);
+  top: 9400px;
+  left: 100px;
+}
+
+/***********************************************************************************************************************************************************/
+body {
+position: relative;
+margin: 0 auto;
+width: 1890px;
+height: 18000px;
+padding:0;
+background-color: rgb(255,192,203); /* light pink */
+background-position: center;
+background-attachment: fixed;
+background-repeat: repeat;
+background-size: contain;
+}
+
+footer {
+position: absolute;
+left: 800px;
+bottom: 50px;
+}
