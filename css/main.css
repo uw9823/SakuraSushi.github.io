@@ -895,3 +895,28 @@ position: absolute;
 left: 800px;
 bottom: 50px;
 }
+
+/************* about page styles ************************/
+.align{
+  position: relative;
+  display: inline-block;
+  top: 500px;
+  left: 675px;
+}
+
+.fix{
+  position: relative;
+  display: inline-block;
+  top: 1250px;
+  left: 125px;
+}
+
+h3{
+  text-align: center;
+  color: rgb(255,116,140);
+}
+p{
+  padding-top: 50px;
+  text-align: center;
+  color: rgb(255,116,140);
+}
