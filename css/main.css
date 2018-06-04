@@ -232,7 +232,7 @@ nav#primary {
 #hosomaki{
   position:relative;
   display: inline-block;
-  background: url(../img/hosomaki.png);
+  background: url(../img/Hosomaki.png);
   width: 650px;
   height: 413px;
   top: 4100px;
@@ -242,7 +242,7 @@ nav#primary {
 #chumaki{
   position:relative;
   display: inline-block;
-  background: url(../img/chumaki.png);
+  background: url(../img/Chumaki.png);
   width: 650px;
   height: 407px;
   top: 5000px;
@@ -252,7 +252,7 @@ nav#primary {
 #futomaki{
   position:relative;
   display: inline-block;
-  background: url(../img/futomaki.png);
+  background: url(../img/Futomaki.png);
   width: 650px;
   height: 413px;
   top: 5500px;
